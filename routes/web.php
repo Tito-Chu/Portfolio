@@ -1,6 +1,6 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
+//use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,4 +16,14 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+//Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/download', 'DownloadController@getDownload');
+// Route::get('/download', function(){
+//     $file = public_path()."/Download/jasonchu.pdf";
+
+//     $headers = [
+//         'Content-Type' => 'application/pdf',
+//      ];
+//      return Response::download($file, 'jasonchu.pdf', $headers);
+// });
 

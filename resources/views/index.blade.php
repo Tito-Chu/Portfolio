@@ -24,7 +24,6 @@
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#developer">Web Developer</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
@@ -137,7 +136,8 @@
         </section>
 
         <!--Resume-->
-        <section class="page-section bg-secondary text-white mb-0" id="resume">
+        {{-- to be fix soon xD--}}
+        {{-- <section class="page-section bg-secondary text-white mb-0" id="resume">
             <div class="container-fluid">
                 <!-- About Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-white">Resume</h2>
@@ -149,16 +149,20 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <div class="divider-custom divider-light">
-                    <div class="divider-custom-icon"><button class="btn" style="background-color: #1abc9c; color: white;">Click To Download</button></div>
+                    <div class="divider-custom-icon">
+                        <a href="download">
+                            <button class="btn" style="background-color: #1abc9c; color: white;">Click To Download</button>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </section>
+        </section> --}}
       
 
 
        
         <!-- Footer-->
-        <footer class="footer text-center page-section bg-primary text-white mb-0">
+        <footer class="footer text-center">
             <div class="container">
                 <div class="row">
                     <!-- Footer Location-->
